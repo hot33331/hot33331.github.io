@@ -12,7 +12,7 @@ Some of the blogs I read had the domain github.io and I got curious how to host 
 ## How to get started
 I first found it difficult to understand how everything would be linked together but it is simple as that:
 
-- you don't necessarily need to install jekyll on your machine though it hleps to preview your posts. If you want to do that, [here's how.](https://jekyllrb.com/docs/)
+- you don't necessarily need to install jekyll on your machine though it helps to preview your posts. If you want to do that, [here's how.](https://jekyllrb.com/docs/)
 
 - you can just select one of the templates from [here](https://jekyllthemes.io/github-pages-themes), clone them and have most things set up for you already.
 
