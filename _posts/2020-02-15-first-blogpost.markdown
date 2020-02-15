@@ -16,6 +16,6 @@ I first found it difficult to understand how everything would be linked together
 
 - you can just select one of the templates from [here](https://jekyllthemes.io/github-pages-themes), clone them and have most things set up for you already.
 
-- you should name the repository that you clone <yourusernameatgithub>.github.io - then github automatically builds your site with jekyll every time you change that repo and publishes to https://<yourusernameatgithub>.github.io .
+- you should name the repository that you clone _yourusernameatgithub_.github.io - then github automatically builds your site with jekyll every time you change that repo and publishes to https://_yourusernameatgithub_.github.io .
 
 A blogpost that helped me get started and describes more details on how to modify templates and serve at your own domain is [this](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
