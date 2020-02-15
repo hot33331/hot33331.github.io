@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blooging in markdown - Github Pages FTW
+title: Blogging in markdown - Github Pages FTW
 date: 2020-02-15 10:45:00 +0100
 description: First post on github.io # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
