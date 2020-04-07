@@ -11,7 +11,7 @@ Most of you might never get into the position where app size limits matter to yo
 
 
 ## Know your limits
-For Google Play Store the size limit is pretty low: at only [100MB](https://developer.android.com/google/play/expansion-files) you're done while Apple allows you [4GB](https://developer.apple.com/news/?id=02122015a) app size in the store. This is pretty generous, but users per default have a size limit of 100MB for download via cellular which you should keep in mind.
+For Google Play Store the size limit is pretty low: at only [100MB](https://developer.android.com/google/play/expansion-files) you're done while Apple allows you [4GB](https://developer.apple.com/news/?id=02122015a) app size in the store. This is pretty generous, but users per default have a size limit of [100MB](https://developer.apple.com/news/?id=02122015a) for download via cellular which you should keep in mind.
 
 ## How to reduce your app size
 There are different approaches to this topic for the oses.
