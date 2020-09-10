@@ -11,7 +11,7 @@ I recently had weird behavior regarding a lottie animation. It worked perfectly 
 
 
 ## Where to look for help
-If you want to know if the feature you need for your animation is supported on your target platform, have a look at [this](http://airbnb.io/lottie/#/supported-features) chart.
+If you want to know if the feature you need for your animation is supported on your target platform, have a look at [this](http://airbnb.io/lottie/#/supported-features) sheet.
 
 
 If you don't know whether this might be a bug in lottie, you can file a bug [here](https://github.com/airbnb/lottie/issues). Make sure to include your animation in the bug report.
