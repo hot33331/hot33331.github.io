@@ -7,7 +7,7 @@ package-lock.json
 node_modules/
 
 ### macOS ###
-*.DS_Store
+**/.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -32,5 +32,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-assets/img/.DS_Store
-**/.DS_Store
+
+
