@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Lottie misbehaves - not all platforms are the same
+title: Kids and WFH
 date: 2020-04-21 09:27:00 +0100
 description: Weird behavior with lottie file # Add post description (optional)
-img: lottie.png # Add image post (optional)
+#img: lottie.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Xamarin,Android,iOS,Lottie]
 ---
