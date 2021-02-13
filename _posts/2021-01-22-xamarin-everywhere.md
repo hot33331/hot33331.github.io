@@ -3,11 +3,11 @@ layout: post
 title: Xamarin Forms everywhere
 date: 2021-01-22 09:27:00 +0100
 description: Xamarin Forms on all platforms
-#img: lottie.png # Add image post (optional)
+img: xamicon.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Xamarin]
 ---
-Xamarin Forms is multiplatform with as much code-reuse as possible. I worked quite some time with iOS and android, but never had set foot to other platforms, so I wanted to see how well Xamarin Forms works out of the box on other platforms.
+Xamarin Forms is multiplatform with as much code-reuse as possible. I worked quite some time with iOS and android, but never had set foot to other platforms, so I wanted to see how well Xamarin Forms works out of the box on other platforms with the focus on desktop.
 
 I wanted to cover 
 * iOS
@@ -23,10 +23,12 @@ I documented my efforts in a github repo: [https://github.com/hot33331/XamarinFo
 
 ## iOS
 As expected iOS works great, no hiccups, everything is fine.
+
 ![iOS screenshot](../assets/img/xf_ios.png)
 
 ## android
 See iOS.
+
 ![iOS screenshot](../assets/img/xf_android.png)
 
 ## Windows
@@ -41,9 +43,11 @@ Also doesn't work well out of the box:
 
 ## macOS
 While the "out-of-the-box" project does have some hiccups: not showing items and action button.
+
 ![macOS screenshot](../assets/img/xf_macos.png)
 
 The catalyst version (usging Frank Krugers nuget https://github.com/praeclarum/Praeclarum.MacCatalyst) works flawless and snappy:
+
 ![macCatalyst screenshot](../assets/img/xf_catalyst.png)
 but it is still in alpha state and if I remember correctly apps cannot be signed for the app store, just yet. 
 
