@@ -49,6 +49,7 @@ While the "out-of-the-box" project does have some hiccups: not showing items and
 The catalyst version (usging Frank Krugers nuget https://github.com/praeclarum/Praeclarum.MacCatalyst) works flawless and snappy:
 
 ![macCatalyst screenshot](../assets/img/xf_catalyst.png)
+
 but it is still in alpha state and if I remember correctly apps cannot be signed for the app store, just yet. 
 
 # Conclusion
