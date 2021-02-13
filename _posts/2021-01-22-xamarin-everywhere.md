@@ -3,7 +3,7 @@ layout: post
 title: Xamarin Forms everywhere
 date: 2021-01-22 09:27:00 +0100
 description: Xamarin Forms on all platforms
-img: xamicon.png # Add image post (optional)
+img: xamicon.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Xamarin]
 ---
