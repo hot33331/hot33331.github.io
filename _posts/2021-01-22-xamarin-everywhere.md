@@ -52,7 +52,7 @@ WPF does not show any items or the flyout. However if you click around in the wh
 
 
 ## Linux (GTK 2)
-[Here's how to add a WPF project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk)
+[Here's how to add a GTK project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk)
 
 You can develop easily from your mac for GTK (gets installed with Visual Studio) and run that same code on Linux (I testet on Ubuntu with Mono Develop IDE - you could also use [jetbrains Rider](https://www.jetbrains.com/rider/) on Linux). Unfortunately it also does not seem to be very mature, yet and does not show any items.
 
