@@ -20,7 +20,7 @@ I used the Vs4mac Template for multiplatform app with flyout, non-shell. I updat
 
 I documented my efforts in a github repo: [https://github.com/hot33331/XamarinFormsEverywhere](https://github.com/hot33331/XamarinFormsEverywhere)
 
-UPDATE: As James Montemagno pointed out on [twitter](https://twitter.com/JamesMontemagno/status/1361774374014119939?s=20) only UWP is supported by Microsoft as a Desktop environment for Xamarin Forms all the other projects are a community effort and or only in preview.
+UPDATE: As James Montemagno pointed out on [twitter](https://twitter.com/JamesMontemagno/status/1361774374014119939?s=20) I forgot to mention that only UWP is supported by Microsoft as a Desktop environment for Xamarin Forms all the other projects are a community effort and / or only in preview.
 
 
 ## iOS
