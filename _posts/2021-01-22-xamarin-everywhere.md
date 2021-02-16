@@ -20,6 +20,8 @@ I used the Vs4mac Template for multiplatform app with flyout, non-shell. I updat
 
 I documented my efforts in a github repo: [https://github.com/hot33331/XamarinFormsEverywhere](https://github.com/hot33331/XamarinFormsEverywhere)
 
+UPDATE: As James Montemagno pointed out on [twitter](https://twitter.com/JamesMontemagno/status/1361774374014119939?s=20) only UWP is supported by Microsoft as a Desktop environment for Xamarin Forms all the other projects are a community effort and or only in preview.
+
 
 ## iOS
 As expected iOS works great, no hiccups, everything is fine.
@@ -32,6 +34,7 @@ See iOS.
 ![iOS screenshot](../assets/img/xf_android.png)
 
 ## Windows
+### UWP
 [Here's how to add a UWP project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/windows/installation/)
 
 Now this is where things get interesting. UWP runs okay if you know that you have to click on the dots in the upper right to get the menu for adding things.
@@ -42,6 +45,7 @@ Now this is where things get interesting. UWP runs okay if you know that you hav
 
 ![uwp3 screenshot](../assets/img/uwp3.png)
 
+### WPF (preview)
 [Here's how to add a WPF project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/wpf)
 
 WPF does not show any items or the flyout. However if you click around in the white space you might manage to popuot that flyout (see second screenshot).
@@ -51,7 +55,7 @@ WPF does not show any items or the flyout. However if you click around in the wh
 ![wpf2 screenshot](../assets/img/wpf_flyout.png)
 
 
-## Linux (GTK 2)
+## Linux (GTK 2 - preview)
 [Here's how to add a GTK project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk)
 
 You can develop easily from your mac for GTK (gets installed with Visual Studio) and run that same code on Linux (I testet on Ubuntu with Mono Develop IDE - you could also use [jetbrains Rider](https://www.jetbrains.com/rider/) on Linux). Unfortunately it also does not seem to be very mature, yet and does not show any items.
@@ -63,6 +67,8 @@ Clicking around in the white space also reveals the flyout as in WPF.
 ![gtk2 screenshot](../assets/img/gtk2.png)
 
 ## macOS
+[Here's how to add a macOS project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/mac)
+
 While the "out-of-the-box" project does have some hiccups: not showing items and action button.
 
 ![macOS screenshot](../assets/img/xf_macos.png)
@@ -76,6 +82,8 @@ but it is still in alpha state and if I remember correctly apps cannot be signed
 
 # Conclusion
 I was pretty disappointed by the desktop implementations. I had the expectation that the basic file - new - template would work at least. Unfortunately only UWP worked with one minor complaint. I have high hopes that the support for desktop will get better with .net 6 and MAUI since I think I remember from some of David Ortinau's slides that Windows (WinUI3 in the future) and macOs (hopefully Frank's catalyst version) will be supported by Microsoft. From my point of view the current state of Desktop (maybe with exception of UWP) in Xamarin Forms 5 is not ready for production use, yet.
+
+This however shall not diminish the great efforts of the community, trying to get Xamarin Forms to the desktop.
 
 Thanks to Gerald Versluis for all the handy videos that helped me a great deal! Watch his videos here:
 [Gerald.Codes(Xamarin.Forms);](https://www.youtube.com/playlist?list=PLfbOp004UaYUgjhTHjtSixo-iMdz6PhIv)
