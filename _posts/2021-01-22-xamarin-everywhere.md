@@ -32,6 +32,8 @@ See iOS.
 ![iOS screenshot](../assets/img/xf_android.png)
 
 ## Windows
+[Here's how to add a UWP project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/windows/installation/)
+
 Now this is where things get interesting. UWP runs okay if you know that you have to click on the dots in the upper right to get the menu for adding things.
 
 ![uwp1 screenshot](../assets/img/uwp1.png)
@@ -40,6 +42,8 @@ Now this is where things get interesting. UWP runs okay if you know that you hav
 
 ![uwp3 screenshot](../assets/img/uwp3.png)
 
+[Here's how to add a WPF project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/wpf)
+
 WPF does not show any items or the flyout. However if you click around in the white space you might manage to popuot that flyout (see second screenshot).
 
 ![wpf1 screenshot](../assets/img/wpf_empty.png)
@@ -47,7 +51,9 @@ WPF does not show any items or the flyout. However if you click around in the wh
 ![wpf2 screenshot](../assets/img/wpf_flyout.png)
 
 
-## Linux
+## Linux (GTK 2)
+[Here's how to add a WPF project to your forms project (link to the docs).](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk)
+
 You can develop easily from your mac for GTK (gets installed with Visual Studio) and run that same code on Linux (I testet on Ubuntu with Mono Develop IDE - you could also use [jetbrains Rider](https://www.jetbrains.com/rider/) on Linux). Unfortunately it also does not seem to be very mature, yet and does not show any items.
 
 ![gtk1 screenshot](../assets/img/gtk1.png)
@@ -70,6 +76,9 @@ but it is still in alpha state and if I remember correctly apps cannot be signed
 
 # Conclusion
 I was pretty disappointed by the desktop implementations. I had the expectation that the basic file - new - template would work at least. Unfortunately only UWP worked with one minor complaint. I have high hopes that the support for desktop will get better with .net 6 and MAUI since I think I remember from some of David Ortinau's slides that Windows (WinUI3 in the future) and macOs (hopefully Frank's catalyst version) will be supported by Microsoft. From my point of view the current state of Desktop (maybe with exception of UWP) in Xamarin Forms 5 is not ready for production use, yet.
+
+Thanks to Gerald Versluis for all the handy videos that helped me a great deal! Watch his videos here:
+[Gerald.Codes(Xamarin.Forms);](https://www.youtube.com/playlist?list=PLfbOp004UaYUgjhTHjtSixo-iMdz6PhIv)
 
 P.S. I found some proof for my earlier claims in one of the [videos from .net Frontend Day](https://www.youtube.com/watch?v=RnyZZKjdUxk).
 
