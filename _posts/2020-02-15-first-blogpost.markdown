@@ -19,3 +19,6 @@ I first found it difficult to understand how everything would be linked together
 - you should name the repository that you clone _yourusernameatgithub_.github.io - then github automatically builds your site with jekyll every time you change that repo and publishes to https://_yourusernameatgithub_.github.io .
 
 A blogpost that helped me get started and describes more details on how to modify templates and serve at your own domain is [this](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
+
+UPDATE: I found a lot of handy things for jekyll here:
+[https://github.com/planetjekyll/awesome-jekyll-editors](https://github.com/planetjekyll/awesome-jekyll-editors)
