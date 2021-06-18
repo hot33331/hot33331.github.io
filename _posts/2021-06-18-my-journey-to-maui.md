@@ -6,7 +6,6 @@ img: dotnet-bot-surfing.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [dotnet, MAUI]
 ---
-## How to NOT getting started with dotnet MAUI
 
 [.NET Multi-platform App UI (MAUI)](https://github.com/dotnet/maui) is now available in preview 5 and now really worth to give it a spin. 
 Before you read any of my stuff, there is a very good [blogpost from David Ortinau](https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/) about current state and how to get startet.
