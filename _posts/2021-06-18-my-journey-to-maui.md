@@ -18,7 +18,7 @@ I already did that and stumbled across some things that made my life harder, so 
 
 One could be tempted to just install .net 6 preview from the website and get going. If you do that, there are some more things to take care of that are a bit tedious, so the nice Jonathan Dick (@redth) wrote an amazing tool called [maui-check](https://github.com/Redth/dotnet-maui-check) which makes your life a lot easier.
 
-![maui-check console image]({{site.baseurl}}/https://user-images.githubusercontent.com/271950/112761851-29f53180-8fcb-11eb-92be-c843c794b2af.gif)
+![maui-check console image]([https://user-images.githubusercontent.com/271950/112761851-29f53180-8fcb-11eb-92be-c843c794b2af.gif])
 
 You can find the installation instructions on the readme.md in the github repo.
 Unfortunately for me the problems already started, not being able to install that dotnet global tool.
