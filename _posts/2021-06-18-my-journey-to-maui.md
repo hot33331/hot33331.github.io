@@ -13,7 +13,7 @@ Before you read any of my stuff, there is a very good [blogpost from David Ortin
 I already did that and stumbled across some things that made my life harder, so I wrote them down, so that you don't have to suffer like I did:
 
 
-### Trying to install on your own - DON'T!
+## Trying to install on your own - DON'T!
 
 One could be tempted to just install .net 6 preview from the website and get going. If you do that, there are some more things to take care of that are a bit tedious, so the nice Jonathan Dick (@redth) wrote an amazing tool called [maui-check](https://github.com/Redth/dotnet-maui-check) which makes your life a lot easier.
 
@@ -21,7 +21,7 @@ You can find the installation instructions on the readme.md in the github repo.
 Unfortunately for me the problems already started, not being able to install that dotnet global tool.
 
 
-### Using .net framework installed with homebrew - DON'T!
+## Using .net framework installed with homebrew - DON'T!
 
 I don't know why, probably out of muscle memory, I had installed the .net framwork through brew. This seems to pose a problem though, hiding the SDKs that maui-check downloads.
 
@@ -42,7 +42,7 @@ In the end I removed the brew instance of .net with
 and maui-check was able to download everything. Everything, well not quite, there was another problem...
 
 
-### Multiple dotnet nuget sources - DON'T!
+## Multiple dotnet nuget sources - DON'T!
 
 When I ran maui-check, I got the following output:
 
@@ -59,7 +59,7 @@ This source also caused me troubles when doing the update of maui-check via
 Error message was the same as above.
 
 
-### Missing NuGet feed for MAUI
+## Missing NuGet feed for MAUI
 
 This should be fixed with preview 5 and I did not run into this problem anymore with p5 today, but before It seems that it was necessary to have a special local nuget.config. Read all about it in this tweet if you are a nostalgic:
  
@@ -73,7 +73,7 @@ This should be fixed with preview 5 and I did not run into this problem anymore 
 </div>
 
 
-### Build on Mac throws Windows errors
+## Build on Mac throws Windows errors
   
 When I first built my app through the CLI on mac, I got this error:
   
@@ -93,7 +93,7 @@ After that I was able to run the build
 > dotnet build -t:Run -f net6.0-maccatalyst
 
 
-### Docs
+## Docs
 
 Fresh from the oven: WE HAVE DOCS!
 
