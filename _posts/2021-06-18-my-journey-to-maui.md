@@ -97,7 +97,7 @@ After that I was able to run the build
 
 Fresh from the oven: WE HAVE DOCS!
 
-https://docs.microsoft.com/en-us/dotnet/maui/
+[https://docs.microsoft.com/en-us/dotnet/maui/](https://docs.microsoft.com/en-us/dotnet/maui/)
 
 Thanks to David Britch!
 
